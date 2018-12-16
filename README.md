@@ -235,7 +235,7 @@ a[bc]
 
 ## Back reference of capturing group
 ```
-([ab])([[cd])\2\1
+([ab])([cd])\2\1
 
 1. Description: match string that frist later is 'a' or 'b', and capturing it as 
                 first group, seconde later is 'c' or 'd' and cauturing it as 
